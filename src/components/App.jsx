@@ -8,11 +8,6 @@ export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
-  // state = {
-  //   good: 0,
-  //   neutral: 0,
-  //   bad: 0,
-  // };
 
   const addState = nameBtn => {
     switch (nameBtn) {
@@ -27,10 +22,6 @@ export const App = () => {
         break;
       default:
     }
-
-    // this.setState(prevState => ({
-    //   [nameBtn]: prevState[nameBtn] + 1,
-    // }));
   };
 
   const countTotalFeedback = () => {

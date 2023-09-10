@@ -11,10 +11,6 @@ export const FeedbackOptions = ({ options, onAddState }) => {
           </li>
         ))}
       </Ul>
-      {/* <button>Hello</button> */}
-      {/* <button onClick={() => onGood()}>Good</button>
-      <button onClick={() => onNeutral()}>Neutral</button>
-      <button onClick={() => onBad()}>Bad</button> */}
     </div>
   );
 };
